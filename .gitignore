@@ -1,0 +1,22 @@
+# Claude Code / editor
+.claude/
+.vscode/
+
+# Hosting panel / gizli dosyalar
+.private/
+
+# Gerçek veritabanı şifreleri - bunun yerine config/db.example.php kullan
+config/db.php
+
+# Kullanıcı tarafından yüklenen ilan görselleri
+uploads/*
+!uploads/.gitkeep
+
+# OS / sistem dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log ve geçici dosyalar
+*.log
+*.tmp
